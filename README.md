@@ -9,5 +9,5 @@ Portfólio do desenvolvedor
 
 :package: nova funcionalidade
 :up: atualização de formatação
-:beatle: correção de bug
+:beetle: correção de bug
 :checkered_flag: release
