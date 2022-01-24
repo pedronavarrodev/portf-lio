@@ -1,4 +1,5 @@
 # Portfólio
+
 Portfólio do desenvolvedor
 
 ## Tarefas
@@ -7,7 +8,7 @@ Portfólio do desenvolvedor
 
 ## Ícones
 
-:package: nova funcionalidade
-:up: atualização de formatação
-:beetle: correção de bug
-:checkered_flag: release
+- :package: nova funcionalidade
+- :up: atualização de formatação
+- :beetle: correção de bug
+- :checkered_flag: release
