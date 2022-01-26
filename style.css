@@ -15,6 +15,11 @@
     --font-action: "Mulish", serif ;
 }
 
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* Página inicial */
 
 .hamburguer{
@@ -187,6 +192,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 50;
 }
 
 .show-menu .sidebar{
@@ -331,6 +337,8 @@ header{
 /* Página de projetos */
 
 .projetos{
+    width: 100%;
+    height: 50vh;
     display:flex;
     justify-content: space-evenly;
 
@@ -590,3 +598,53 @@ header{
     cursor: pointer;
     grid-column: 2;
 }
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background-color: #17181b ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-content p{
+    font-family: var(--font-secundary);
+    color:#a7a7a7;
+    font-size: 1.2rem;
+}
+
+.social-list a{
+    margin: 0 2rem;
+    color:#a7a7a7;
+    font-size: 1.3rem;
+}
+
+.social-list ul{
+    display:flex;
+}
+
+#link-topo{
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+    width: 3rem;
+    height: 3rem;
+    background: #DA22FF;
+    background: -webkit-linear-gradient(to left, #9733EE, #DA22FF);
+    background: linear-gradient(to left, #9733EE, #DA22FF);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, .5);
+}
+
